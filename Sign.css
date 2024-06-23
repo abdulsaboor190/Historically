@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#background{
+
+	height: 663px;
+	width: 1366px;
+	background-image: url('Login/background.avif');
+	background-size: contain;
+	filter: blur(1.3px);
+	filter: brightness(100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#login{
+	height: 500px;
+	width: 700px;
+	background-color: transparent;
+	text-align: left;
+
+}
+button:hover{
+	cursor: pointer;
+}
+#heading-1{
+	font-size: 40px;
+	font-color: black;
+	font-family: 'Cinzel';
+	text-align: center;
+}
+.email{
+	font-family: 'Lora';
+	font-size: 17px;
+	margin-top: 9px;
+}
+#email-1{
+	border-radius: 20px;
+	color: black;
+	width: 345px;
+	border-style: none;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 13px;
+	font-family: 'Lora';
+	margin-top: -35px;
+}
+#name-1{
+	border-radius: 20px;
+	color: black;
+	width: 163px;
+	border-style: none;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 13px;
+	font-family: 'Lora';
+	margin-top: -10px;
+}
+
+#name-2{
+	border-radius: 20px;
+	color: black;
+	width: 163px;
+	border-style: none;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 13px;
+	font-family: 'Lora';
+	margin-top: -10px;
+}
+#password{
+	border-radius: 20px;
+	color: black;
+	width: 345px;
+	border-style: none;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 13px;
+	font-family: 'Lora';
+	margin-top: -10px;
+}
+
+
+#turnin{
+	height: 35px;
+	width: 260px;
+	text-align: center;
+	border-style: none;
+	border-radius: 4px;
+	margin-left: 50px;
+}
+
+
+
+#text-2{
+	margin-left: 75px;
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+	font-family: 'Lora';
+	text-decoration: none;
+}
+
+#rough{
+	margin-left: 174px;
+}
+
+
+
+
+

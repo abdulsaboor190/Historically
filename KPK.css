@@ -1,0 +1,326 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.anchor1{
+	text-decoration: none;
+	color: black;
+}
+.more{
+	text-decoration: none;
+	color: black;
+}
+#navbar{
+	background-color: #bbd4c7;
+	height: 25px;
+	color: black;
+	position: inline-block;
+	display: flex;
+	justify-content: space-around;
+	padding: 18px;
+	position: inline-block;
+	font-family: 'Cinzel';
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#logo2{
+	border-style: none;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+}
+li{
+	list-style-type: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+input{
+	font-size: 20px;
+	height: 15px;
+	width: 100px;
+	font-family: 'Cinzel';
+	border: 2px solid #faebd7;
+	padding: 5px;
+	transition-property: all;
+	transition-duration: 2s;	
+}
+#logo{
+	margin: 0px;
+}
+input:hover{
+	width: 200px;
+}
+img{
+	border: 3px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .anchor1 {
+    background-color: #faebd7; /* Change background on hover */
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: #2c3e50;
+}
+
+.overview {
+    position: relative;
+    color: white;
+    text-align: left;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overview-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cities, .education, .tourism {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cities h2, .education h2, .tourism h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.city, .institution {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.city img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.city h3, .institution h3 {
+    margin-top: 10px;
+}
+
+.city p, .institution p {
+    font-size: 16px;
+    color: #555;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .cities, .education, .tourism {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .city, .institution {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .city img, .institution img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .city p, .institution p {
+        width: 80%;
+        text-align: center;
+    }
+}
+#one{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    
+	background-color: #333;
+	height: 390px;
+    
+	color: white;
+    
+	text-align: left;
+    
+	padding: 10px 0;
+    
+	position: relative;
+    
+	width: 1328px;    
+	bottom: 0;
+
+	display: flex;
+	padding-left: 20px;
+
+}
+
+#logo5{
+	height: 90px;
+	width: 90px;
+	border-style: none;
+	position: relative;
+	top: -25px;
+	left: 20px;
+	float: left;
+}
+
+
+#part1{
+	flex: 1;
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	
+	
+}
+#part2{
+	flex: 1;
+	
+}
+#part3{
+	flex: 1;
+	
+}
+
+.logoto{
+	height: 40px;
+	width: 40px;
+	border-style: none;
+}
+
+.text-9{
+	padding-left: 50px;
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	line-height: 76px;
+}
+
+
+#part3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+#emailInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#subscribeButton {
+height: 40px;
+width: 120px;
+    padding: 10px 20px;
+    background-color: #faebd7;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-align: center;
+}
+
+#subscribeButton:hover {
+    background-color: #f57217;
+    color: white;
+}
+
+
+
+.foot{
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel';
+	text-decoration: none;
+}

@@ -1,0 +1,566 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+.anchor1{
+	text-decoration: none;
+	color: black;
+}
+.more{
+	text-decoration: none;
+	color: black;
+}
+#navbar{
+	background-color: #ccdfec;
+	height: 25px;
+	color: black;
+	position: inline-block;
+	display: flex;
+	justify-content: space-around;
+	padding: 18px;
+	position: inline-block;
+	font-family: 'Cinzel';
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#logo2{
+	border-style: none;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -15px;
+	left: 8px;
+}
+li{
+	list-style-type: none;
+	color: black;
+}
+a:hover{
+	color: black;
+}
+input{
+	font-size: 20px;
+	height: 15px;
+	width: 100px;
+	font-family: 'Cinzel';
+	border: 2px solid #faebd7;
+	padding: 5px;
+	transition-property: all;
+	transition-duration: 2s;	
+}
+#logo{
+	margin: 0px;
+}
+input:hover{
+	width: 200px;
+}
+img{
+	border: 3px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .anchor1 {
+    background-color: #faebd7; /* Change background on hover */
+    color: black;
+}
+
+
+
+#picture-1{
+	height: 458px;
+	width: 1347px; 
+	border-style: none;
+	padding: 0px;
+}
+#heading-block-2{
+	width:  810px;
+	height: 280px;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	position: absolute;
+	top: 140px;
+	left: 260px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#heading-1{
+	font-size: 40px;
+	color: black;
+	font-family: 'Cinzel';
+	
+	
+}
+
+
+.paragraph-1{
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+
+#button-1{
+	margin-top: 25px;
+	height: 40px;
+	width: 90px;
+	border-style: none;
+	border-radius: 10%;
+	font-family: 'Cinzel';
+	font-weight: 600; 
+}
+#button-1:hover{
+	transform: scale(1.2);
+	background-color: brown;
+	transition-property: all;
+	transition-duration: 1.4s;
+}
+
+#section-1 {
+    background-color: #FFE4E1;
+    height: 700px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes dress{
+	0%{
+	background-image: url('Culture/dress-4.jpg');
+}
+	16.67%{
+	background-image: url('Culture/dress-1.webp');
+}
+	33.33%{
+	background-image: url('Culture/dress-2.jpg');
+}
+	50%{
+	background-image: url('Culture/dress-3.jpg');
+}
+	66.67%{
+	background-image: url('Culture/dress-5.jpg');
+}
+	83.34%{
+	background-image: url('Culture/dress-6.jpg');
+}
+	100%{
+	background-image: url('Culture/dress-4.jpg');
+}
+
+}
+
+#dress {
+    height: 420px;
+    width: 420px;
+    background-image: url('Culture/dress-4.jpg');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px; 
+    border-radius: 20px;
+    animation: dress 25s infinite 2s;
+}
+
+
+
+#heading-3 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Cinzel', serif;
+    text-align: left; 
+    margin-bottom: 10px;
+}
+
+#paragraph-3 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+#section-2 {
+    background-color: #FFE4E1; 
+    height: 700px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#festival {
+    height: 420px;
+    width: 420px;
+    background-image: url('Culture/festival-4.jpg');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px; 
+    border-radius: 20px;
+    animation: festival 20s infinite 3s;
+}
+@keyframes festival{
+	0%{
+	background-image: url('Culture/festival-4.jpg');
+}
+	20%{
+	background-image: url('Culture/festival-2.jpg');
+}
+	40%{
+	background-image: url('Culture/festival-1.jpg');
+}
+	60%{
+	background-image: url('Culture/festival-3.jpg');
+}
+	80%{
+	background-image: url('Culture/festival-1.jpg');
+}
+	100%{
+	background-image: url('Culture/festival-4.jpg');
+}
+}
+
+
+#heading-4 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Cinzel', serif;
+    text-align: right; 
+    margin-bottom: 10px;
+}
+
+#paragraph-4 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: right; 
+    line-height: 1.6;
+}
+
+
+
+#section-3 {
+    background-color: #dfa57f;
+    height: 870px; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#music-1 {
+    height: 340px;
+    width: 280px;
+    background-size: cover;
+     background-image: url('Culture/music-4.png');
+    margin-left: 20px; 
+    animation: musicOne 10s infinite 2.2s;
+}
+
+#music-2 {
+    height: 300px;
+    width: 370px;
+    background-size: cover;
+     background-image: url('Culture/music.webp');
+    margin-right: 10px; 
+    animation: musicTwo 15s infinite 2.2s;
+}
+@keyframes musicTwo {
+    0% {
+        background-image: url('Culture/music.webp');
+    }
+    33.33% {
+        background-image: url('Culture/music-5.jpg');
+    }
+    66.66% {
+        background-image: url('Culture/music-2.jpg');
+    }
+    100% {
+        background-image: url('Culture/music.webp');
+    }
+}
+
+
+@keyframes musicOne {
+    0% {
+        background-image: url('Culture/music-4.png');
+    }
+    33.33% {
+        background-image: url('Culture/music-3.jpg');
+    }
+    66.66% {
+        background-image: url('Culture/music-1.jpg');
+    }
+    100% {
+        background-image: url('Culture/music-4.png');
+    }
+}
+
+
+
+
+
+
+.text {
+    flex: 1;
+    padding: 20px;
+    text-align: center; 
+}
+
+.center-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left; 
+}
+
+#heading-5 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 10px;
+}
+
+#paragraph-5 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#section-4 {
+    background-color: #dfa57f;
+    height: 850px; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ #heading-6 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Cinzel', serif;
+    text-align: right; 
+    
+} 
+#paragraph-6 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: right;
+    line-height: 1.6;
+    padding-left: 40px;
+} 
+
+#craft {
+    height: 400px;
+	width: 500px;
+background-image: url('Culture/craft-2.jpg');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px; 
+    margin-right: 60px;
+    animation: change 17s infinite 2s;
+}
+ @keyframes change {
+0%{
+	background-image: url('Culture/craft-2.jpg');
+}
+25%{
+	background-image: url('Culture/craft-1.jpg');
+}
+50%{
+	
+	background-image: url('Culture/craft-3.avif');
+}
+
+75%{
+	background-image: url('Culture/craft-4.jpg');
+}
+100%{
+	
+	background-image: url('Culture/craft-2.jpg');
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    
+	background-color: #333;
+	height: 300px;
+    
+	color: white;
+    
+	text-align: left;
+    
+	padding: 10px 0;
+    
+	position: relative;
+    
+	width: 1328px;    
+	bottom: 0;
+
+	display: flex;
+	padding-left: 20px;
+
+}
+
+#logo5{
+	height: 90px;
+	width: 90px;
+	border-style: none;
+	position: relative;
+	top: -25px;
+	left: 20px;
+	float: left;
+}
+
+
+#part1{
+	flex: 1;
+	padding-top: 20px;
+	color: white;
+	font-size: 30px;
+	
+	
+}
+#part2{
+	flex: 1;
+	
+}
+#part3{
+	flex: 1;
+	
+}
+
+.logoto{
+	height: 40px;
+	width: 40px;
+	border-style: none;
+}
+
+.text-9{
+	padding-left: 50px;
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	line-height: 76px;
+}
+
+
+#part3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+#emailInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#subscribeButton {
+height: 40px;
+width: 120px;
+    padding: 10px 20px;
+    background-color: #faebd7;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-align: center;
+}
+
+#subscribeButton:hover {
+    background-color: #f57217;
+    color: white;
+}
+
+
+
+.foot{
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel';
+	text-decoration: none;
+}
+
+                      

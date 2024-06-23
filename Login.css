@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#background{
+
+	height: 663px;
+	width: 1366px;
+	background-image: url('Login/background.avif');
+	background-size: contain;
+	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#login{
+	height: 500px;
+	width: 300px;
+	background-color: transparent;
+	text-align: center;
+
+}
+button:hover{
+	cursor: pointer;
+}
+#heading-1{
+	font-size: 40px;
+	font-color: black;
+	font-family: 'Cinzel';
+	text-align: center;
+}
+
+#username{
+	height: 30px;
+	width: 70%;
+	border-style: none;
+	border-radius: 45px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-family: 'Lora';
+
+	font-color: white;
+}
+#password{
+	height: 30px;
+	width: 70%;
+	border-style: none;
+	border-radius: 45px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-family: 'Lora';
+}
+
+#signup{
+	height: 30px;
+	width: 70%;
+	border-style: none;
+	border-radius: 45px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-family: 'Cinzel';
+}
+
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: inline-block;
+  width: auto;
+}
+
+
+
+
+#forget{
+	text-decoration: none;
+	font-family: 'Lora';
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#text{
+	text-align: center;
+	font-family: 'Lora';
+	margin-top: 20px;
+}
+
+#face{
+	height: 30px;
+	width: 100px;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	border-style: none;
+}
+#goo{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	width: 100px;
+	border-radius: 5px;
+	border-style: none;
+}
+
+
+
+
+
+
+
